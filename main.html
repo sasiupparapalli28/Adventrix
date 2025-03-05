@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Adventrix</h1>
+    <h5>Dare to Adventure!!</h5>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#tasks">Adventure Tasks</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+      <li><a href="#joke">Joke of the Day</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to the Adventrix</h2>
+    <p>
+      This website brings together the spirit of adventure 🌍 and exploration 🧭 with a mix of engaging content 📚 and interactive experiences 🎮. It offers a deep dive into some of the world’s most thrilling destinations 🏞️ and activities, whether it’s trekking through the Himalayas 🏔️, conquering mountains in India 🧗‍♂️, or diving into the crystal-clear waters of exotic locales 🌊. The website draws inspiration from global adventure hotspots 🌎, providing users with not only a visual feast 🍽️ of stunning imagery 📸 but also a chance to test their knowledge 🧠 through fun and challenging quizzes ❓. Whether you’re looking to plan your next adventure 🧳 or simply enjoy a moment of humor with a joke of the day 😂, this site serves as an ultimate destination for adventure enthusiasts 🏕️ and curious explorers alike! 🌟
+    </p>
+  </section>
+ 
+  <section id="tasks">
+    <h2>Adventure Tasks</h2>
+    <div class="adventure-task-images">
+      <div class="adventure-item">
+        <img src="Mountain.webp" alt="Mountain Climbing">
+        <h3>Mountain Climbing</h3>
+      </div>
+      <div class="adventure-item">
+        <img src="sky.webp" alt="Skydiving">
+        <h3>Skydiving</h3>
+      </div>
+      <div class="adventure-item">
+        <img src="scuba.webp" alt="Scuba Diving">
+        <h3>Scuba Diving</h3>
+      </div>
+      <div class="adventure-item">
+        <img src="hiking.avif" alt="Hiking">
+        <h3>Hiking</h3>
+      </div>
+      <div class="adventure-item">
+        <img src="bungee.webp" alt="Bungee Jumping">
+        <h3>Bungee Jumping</h3>
+      </div>
+      <div class="adventure-item">
+        <img src="Zipling.webp" alt="Ziplining">
+        <h3>Ziplining</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="quiz">
+    <h2>Adventure Quiz</h2>
+    <button onclick="window.location.href='quiz.html'">Take the Quiz</button>
+  </section>
+
+  <section id="joke">
+    <h2>Joke of the Day</h2>
+    <p id="joke-text">Loading joke...</p>
+    <button onclick="fetchJoke()">Get a New Joke</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
