@@ -43,4 +43,4 @@ Welcome to **Adventrix**! 🎒 This project was designed as part of TASK-3 durin
 
 🚀LIVE PAGE:- https://sasiupparapalli28.github.io/Adventrix/
 
-🚀REPOSITORY LINK:- https://github.com/sasi-upparapalli/Adventrix.git 
+🚀REPOSITORY LINK:- https://github.com/sasiupparapalli28/Adventrix.git 
